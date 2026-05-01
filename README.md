@@ -6,7 +6,7 @@ Production-grade trading and investing skill pack for AI coding agents.
 
 ## Why this repo exists
 
-Most trading prompts are generic and non-repeatable.
+Most trading prompts are generic and non-repeatable.  
 This repository provides a structured, reusable skill system so agent outputs become:
 
 - more consistent
@@ -17,12 +17,13 @@ Instead of one-off advice, you get workflow-driven analysis with reusable refere
 
 ## What's inside
 
-This repository currently includes **54 skills**:
+This repository currently includes **54 skills** across:
 
-- **52 skills** from `tradermonty/claude-trading-skills` (fully preserved)
-- **2 custom extensions**
-  - `tenbagger-screener`
-  - `buffett-value-evaluator`
+- market and technical analysis
+- screening and idea generation
+- earnings, events, and catalyst workflows
+- risk, portfolio, and execution support
+- edge research pipeline orchestration
 
 Each skill folder contains:
 
@@ -48,8 +49,8 @@ Each skill folder contains:
 - `value-dividend-screener`
 - `pead-screener`
 - `pair-trade-screener`
-- `tenbagger-screener` (custom)
-- `buffett-value-evaluator` (custom)
+- `tenbagger-screener`
+- `buffett-value-evaluator`
 
 ### 3. Earnings, events, and catalysts
 
@@ -141,6 +142,6 @@ PRs are welcome, especially for:
 
 ## Disclaimer
 
-This project is for research and education.
-It is **not** investment advice.
+This project is for research and education.  
+It is **not** investment advice.  
 Always do your own due diligence and risk management.

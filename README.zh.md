@@ -1,10 +1,10 @@
 # trading_claw_skills
 
-面向 AI 代理（Agent）的实战级交易与投资技能库。
+面向 AI Agent 的实战级交易与投资技能库。
 
 [English](README.md) | [日本語](README.ja.md)
 
-## 为什么做这个仓库
+## 项目目标
 
 很多“投资建议型提示词”缺乏可复用性和可验证性。  
 本仓库将分析流程结构化为技能（Skill），目标是：
@@ -15,12 +15,13 @@
 
 ## 仓库内容
 
-当前共 **54 个技能**：
+当前共收录 **54 个技能**，覆盖以下方向：
 
-- 来自 `tradermonty/claude-trading-skills` 的 **52 个技能**（完整保留）
-- 自定义扩展 **2 个技能**
-  - `tenbagger-screener`
-  - `buffett-value-evaluator`
+- 市场与技术分析
+- 选股与机会发现
+- 财报、事件与催化剂分析
+- 风险管理与组合执行
+- Edge 研究流水线
 
 每个技能目录通常包含：
 
@@ -46,8 +47,8 @@
 - `value-dividend-screener`
 - `pead-screener`
 - `pair-trade-screener`
-- `tenbagger-screener`（扩展）
-- `buffett-value-evaluator`（扩展）
+- `tenbagger-screener`
+- `buffett-value-evaluator`
 
 ### 3. 财报、事件与催化剂
 
@@ -77,8 +78,8 @@
 
 ## 快速开始（Codex / Claude Code）
 
-1. 将 `skills/` 中需要的技能目录复制到本地 skills 目录
-2. 重启 Agent 运行环境
+1. 将 `skills/` 中需要的技能目录复制到本地 skills 目录  
+2. 重启 Agent 运行环境  
 3. 用技能名调用（例如：`$technical-analyst`, `$tenbagger-screener`）
 
 ## 使用示例
@@ -99,7 +100,7 @@ $buffett-value-evaluator
 安全边际进行评估，并按置信度排序。
 ```
 
-## 这个仓库的差异化
+## 仓库优势
 
 - **流程优先**：不是只改文风，而是固化分析流程
 - **证据导向**：references / scripts 提升可验证性
