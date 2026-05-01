@@ -1,0 +1,8 @@
+interface:
+  display_name: "Buffett Value Evaluator"
+  short_description: "Scores stocks with a moat-quality-value framework and margin-of-safety discipline."
+  default_prompt: "Use $buffett-value-evaluator to evaluate stocks with Buffett-style quality and valuation logic, then rank by conviction and margin of safety."
+
+policy:
+  allow_implicit_invocation: true
+

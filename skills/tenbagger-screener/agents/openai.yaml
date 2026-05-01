@@ -1,0 +1,8 @@
+interface:
+  display_name: "Tenbagger Screener"
+  short_description: "Ranks potential multibagger stocks with a disciplined 0-100 scoring model."
+  default_prompt: "Use $tenbagger-screener to screen US, Japan, or China stocks and rank potential tenbagger candidates with score, risks, and catalyst map."
+
+policy:
+  allow_implicit_invocation: true
+
