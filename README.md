@@ -2,7 +2,7 @@
 
 Production-grade trading and investing skill pack for AI coding agents.
 
-[日本語版はこちら](README.ja.md) | [中文说明在这里](README.zh.md)
+[Japanese](README.ja.md) | [Chinese](README.zh.md)
 
 ## Why this repo exists
 
@@ -30,6 +30,12 @@ Each skill folder contains:
 - `SKILL.md` (execution instructions)
 - `references/` (frameworks, methods, checklists)
 - optional `scripts/`, `assets/`, `agents/`
+
+## Full skill guide (what/how/effect)
+
+For per-skill details including what each skill does, how to invoke it, and the expected effect:
+
+- [docs/SKILL_GUIDE.md](docs/SKILL_GUIDE.md)
 
 ## Skill categories
 
@@ -122,6 +128,7 @@ Given my entry/stop and risk budget, calculate position size and constraint impa
 ## Repository structure
 
 - `skills/` - all skill folders
+- `docs/SKILL_GUIDE.md` - per-skill usage and effect guide
 - `LICENSE` - repository license
 - `README.md` / `README.ja.md` / `README.zh.md` - multilingual docs
 
